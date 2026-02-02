@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NETFLIX</title>
+  <link rel="stylesheet" href="net.css">
+  <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/1/18/Netflix_2016_N_logo.svg">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="left">
+    <h1 class="logo">NETFLIX</h1>
+    <nav>
+      <a href="netflix.html" class="active">Home</a>
+      <a href="shows.html">Shows</a>
+      <a href="movies.html">Movies</a>
+     <a href="mynet.html">My Netflix</a>
+    </nav>
+  </div>
+</header>
+
+<!-- BANNER SLIDER -->
+<section class="banner">
+  <div class="banner-slider">
+       
+
+    <!-- Banner 1 -->
+    <div class="banner-item active" style="background-image: url('https://www.acmodasi.in/amdb/images/movie/9/i/salaar-part-1-ceasefire-2023-M5DxkV.jpg')">
+
+      <video
+        class="banner-video"
+        src=""
+        muted
+        preload="metadata">
+      </video>
+
+      <div class="banner-content">
+        <span class="series-tag">N SERIES</span>
+        <h1 class="banner-title" style="font-size: 46px;">SALAAR-PART-1-CEASEFIRE</h1>
+        <p class="banner-info">⭐ 9.5 | 2023 | Action-Drama</p>
+        <p class="banner-desc">
+          A story of friendship, power, and betrayal in a "dystopian kingdom" ruled by bloodthirsty clans.
+        </p>
+        <div class="banner-buttons">
+          <button class="play-btn"
+            onclick="playMovie('https://www.youtube.com/embed/r6HUqLvnJng')">
+            ▶ Play
+          </button>
+          <button class="list-btn">＋ My List</button>
+        </div>
+      </div>
+    </div>
+      
+
+     
+    <!-- Banner 2 -->h
+    <div class="banner-item" style="background-image: url('https://www.sakshi.com/gallery_images/2023/12/27/mahesh%20babu%20guntur%20kaaram%20movie%20hd%20images-10.jpg')">
+
+      <video
+        class="banner-video"
+        src=""
+        muted
+        preload="metadata">
+      </video>
+
+      <div class="banner-content">
+        <span class="series-tag">N SERIES</span>
+        <h1 class="banner-title" style="font-size: 50px;">GUNTUR KARAM </h1>
+        <p class="banner-info">⭐ 8.0 | 2024 | Action-Drama</p>
+        <p class="banner-desc">
+          It is an action-comedy-drama focusing on family dynamics and emotional conflict.
+        </p>
+        <div class="banner-buttons">
+          <button class="play-btn"
+            onclick="playMovie('https://www.youtube.com/embed/Kby5Plkzlpk')">
+            ▶ Play
+          </button>
+          <button class="list-btn">＋ My List</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner 3 -->
+    <div class="banner-item" style="background-image: url('https://www.filmyfenil.com/wp-content/uploads/2024/09/Devara-wallpaper.jpg')">
+
+      <video
+        class="banner-video"
+        src=""
+        muted
+        preload="metadata">
+      </video>
+
+      <div class="banner-content">
+        <span class="series-tag">N SERIES</span>
+        <h1 class="banner-title" style="font-size: 50px;">DEVARA</h1>
+        <p class="banner-info">⭐ 8.0 | 2024 | Action-Drama</p>
+        <p class="banner-desc">
+          A man follows a fearless guardian of a coastal village who feuds with his counterparts over smuggling, 
+          later succeeded by his timid-seeming son, while dealing with themes of fear and greed.
+        </p>
+        <div class="banner-buttons">
+          <button class="play-btn"
+            onclick="playMovie('https://www.youtube.com/embed/ogNPOibbbXg')">
+            ▶ Play
+          </button>
+          <button class="list-btn">＋ My List</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+    
+      
+
+  <!-- Arrows -->
+  <button class="arrow prev">&#10094;</button>
+  <button class="arrow next">&#10095;</button>
+
+</section>
+
+
+<!-- MOVIE ROW -->
+<!-- MOVIE ROW -->
+
+<section class="row">
+  <h2>Trending Movies</h2>
+  <!-- arrows -->
+  <button class="row-arrow left" onclick="scrollMovies(-1)">❮</button>
+  <button class="row-arrow right" onclick="scrollMovies(1)">❯</button>
+
+  <!-- movie images --> 
+
+  <div class="movies">
+
+     <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BNmIwYTI3ODItMzRkOS00MzlhLWI4NzQtNDFmOGJhZGJhM2VkXkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/IeaqY8KOQ5Q">
+
+
+      <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcMXhKSpsu21GuMY_kOTQzXXfNYVoNpyq16w&s"
+    data-trailer="https://www.youtube.com/embed/ggJg6CcKtZE">
+  
+   <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvnc0jO0t1_kLXxgAp6v2dy7XkiAKNC-2jg&s"
+    data-trailer="https://www.youtube.com/embed/-TTGAPf35Oc">
+
+    <img
+    class="movie-poster"
+    src="https://stat5.bollywoodhungama.in/wp-content/uploads/2020/09/Major.webp"
+    data-trailer="https://www.youtube.com/embed/LbTN2dOJcbQ">
+
+    <img
+    class="movie-poster"
+    src="https://i.pinimg.com/736x/75/3d/d1/753dd1b9012f84d6b719097ad4444e01.jpg"
+    data-trailer="https://www.youtube.com/embed/A6OnLOi6rp0">
+
+    <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BNjY5OTg4NTYtZjVkZS00YTZmLWIwNDEtM2Y0ODQyMzM2NTJiXkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/vlZ_rfMDshI">
+
+    <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BNTE3OTIxZDYtNjA0NC00N2YxLTg1NGQtOTYxNmZkMDkwOWNjXkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/afEJYg0tyJ4">
+
+    <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BYzdlODQ5MWItNTU4Zi00NGYyLWFmNmQtN2RjZGYyZDk3YzE5XkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/UCaxU9v6cMw">
+
+    <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYgRD4EMesR1WcCcOKnWhlpHcFffK6b8VfAw&s"
+    data-trailer="https://www.youtube.com/embed/Kby5Plkzlpk">
+
+    <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRusBSd260zjoAF6oswQdfyWg-zviFvtrMYqA&s"
+    data-trailer="https://www.youtube.com/embed/nXQVoJdDdBg"> 
+    
+
+</div>
+
+<!-- Modal -->
+<div id="trailerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe
+      id="trailerFrame"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+</section>
+
+
+<section class="row">
+  <h2>Thriller & Mystery</h2>
+  <!-- arrows -->
+  <button class="row-arrow left" onclick="scrollMovies(-1)">❮</button>
+  <button class="row-arrow right" onclick="scrollMovies(1)">❯</button>
+
+  <!-- movie images --> 
+
+  <div class="movies">
+
+    <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62Fnacbu_Kb8myi8gu92vGMSEsyYwW_qQ0w&s"
+    data-trailer="https://www.youtube.com/embed/7xE0pBuwtCI">
+
+    <img
+    class="movie-poster"
+    src="https://i.pinimg.com/736x/02/c6/10/02c61053618cb134b26cf90992123b20.jpg"
+    data-trailer="https://www.youtube.com/embed/3Ld05Om2UWs">
+
+      <img
+    class="movie-poster"
+    src="https://images.filmibeat.com/ph-big/2025/09/kishkindhapuri1757072988_8.jpeg"
+    data-trailer="https://youtu.be/uFGAaTPgNNE">
+
+       <img
+    class="movie-poster"
+    src="https://i.pinimg.com/736x/df/6a/3f/df6a3f6c169df5d4c11f840c888d7db3.jpg"
+    data-trailer="https://www.youtube.com/embed/rUJ5pzrbeaU">
+
+
+    <img
+    class="movie-poster"
+    src="https://stat4.bollywoodhungama.in/wp-content/uploads/2021/10/Gadar-2-23.jpg"
+    data-trailer="https://www.youtube.com/embed/ie7plKwK2_k">
+    
+    
+ 
+   <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BODllODJhNzYtNTE0OC00ZTdmLWE3NWQtNGNkM2JjMWZhM2MwXkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/HNnt00swZ5Q">
+
+
+    <img
+    class="movie-poster"
+    src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-girlfriend-et00423419-1733756512.jpg"
+    data-trailer="https://www.youtube.com/embed/XgLlPN7oxwY">
+
+      <img
+    class="movie-poster"
+    src="https://stat4.bollywoodhungama.in/wp-content/uploads/2021/07/Jawan-1.jpeg"
+    data-trailer="https://www.youtube.com/embed/ikDhG0TaHTk">
+
+
+       <img
+    class="movie-poster"
+    src="https://miro.medium.com/v2/resize:fit:1200/1*KKTQLMfiB6858yMcM7xvIw.jpeg"
+    data-trailer="https://www.youtube.com/embed/YGJOcMtnG1Q"> 
+
+   
+
+     <img
+    class="movie-poster"
+    src="https://c.saavncdn.com/480/Dangal-Hindi-2016-20200116120806-500x500.jpg"
+    data-trailer="https://www.youtube.com/embed/XuIVa_K59QE">
+
+
+</div>
+
+<div id="trailerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe
+      id="trailerFrame"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+</section>
+
+
+
+<section class="row">
+  <h2>Popular on Netflix</h2>
+  <!-- arrows -->
+  <button class="row-arrow left" onclick="scrollMovies(-1)">❮</button>
+  <button class="row-arrow right" onclick="scrollMovies(1)">❯</button>
+
+  <!-- movie images --> 
+
+  <div class="movies">
+
+    <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/I/81U0-cRG34S._AC_UF894,1000_QL80_.jpg"
+    data-trailer="https://www.youtube.com/embed/4DMUy20QfdM">
+
+    <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnXTjoARSRLNRsh8ITNMgQdsCFyU4ePvZsZw&s"
+    data-trailer="https://www.youtube.com/embed/FgE0dL17Fnc">
+
+      <img
+    class="movie-poster"
+    src="https://i.pinimg.com/736x/cc/98/2f/cc982fc19b7afb1841fa049f6cd8c84b.jpg"
+    data-trailer="https://www.youtube.com/embed/6qwy_Q2iU00">
+
+
+       <img
+    class="movie-poster"
+    src="https://www.jbhifi.co.nz/cdn/shop/files/427495-Product-0-I-638917022563548132_1024x1024.jpg"
+    data-trailer="https://www.youtube.com/embed/-lSXxbaCGq4">
+
+    
+     <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSyE8vfRDHXLLCQkw5x0kZ7m23dRtHahEg_w&s"
+    data-trailer="https://www.youtube.com/embed/xDSlTvAfZKE">
+
+ 
+  
+
+    <img
+    class="movie-poster"
+    src="https://images-cdn.ubuy.co.in/634cff8dee61a027615ddfa2-posters-usa-marvel-captain-america-the.jpg"
+    data-trailer="https://www.youtube.com/embed/hLUdF8cjzyA">
+
+      <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/Apa85VT9fX0">
+
+
+       <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoRjPdwhcKc2mUursHyeC4tNpwG3gtQt_8dw&s"
+    data-trailer="https://www.youtube.com/embed/Hg4h_f4Hj4k"> 
+
+   
+
+    <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/I/71BisddDMfL._AC_UF894,1000_QL80_.jpg"
+    data-trailer="https://www.youtube.com/embed/daehldn5TBU">
+
+    <img
+    class="movie-poster"
+    src="https://i.redd.it/gnv94oll6im01.jpg"
+    data-trailer="https://www.youtube.com/embed/udKE1ksKWDE">
+
+</div>
+
+<div id="trailerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe
+      id="trailerFrame"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- Modal to show trailer -->
+<div id="trailerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe id="trailerFrame" width="800" height="450" src="" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+
+
+<script src="net.js"></script>
+</body>
+</html>

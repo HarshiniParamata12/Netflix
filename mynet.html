@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NETFLIX</title>
+  <link rel="stylesheet" href="net.css">
+  <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/1/18/Netflix_2016_N_logo.svg">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="left">
+    <h1 class="logo">NETFLIX</h1>
+    <nav>
+      <a href="netflix.html">Home</a>
+      <a href="shows.html">Shows</a>
+      <a href="movies.html">Movies</a>
+      <a href="mynet.html"class="active">My Netflix</a>
+    </nav>
+  </div>
+</header>
+
+
+<!-- MOVIE ROW -->
+<!-- MOVIE ROW -->
+
+<section class="row">
+  <h2>My List</h2>
+  <!-- arrows -->
+  <button class="row-arrow left" onclick="scrollMovies(-1)">❮</button>
+  <button class="row-arrow right" onclick="scrollMovies(1)">❯</button>
+
+  <!-- movie images --> 
+
+  <div class="movies">
+
+    <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Ib-2aBqJW3o3VgZgBjmInhu5VOyt9qzVbQ&s"
+    data-trailer="https://www.youtube.com/embed/r6HUqLvnJng">
+
+      <img
+    class="movie-poster"
+    src="https://preview.redd.it/daaku-maharaj-mid-story-great-technical-values-v0-vbfgx4cogmke1.jpeg?auto=webp&s=9fb6859ff18967e8371bfbff827320dd5f41f26a"
+    data-trailer="https://www.youtube.com/embed/MRpS5plLHms">
+  
+   <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFcZZ-brVPBBZnOsBbm8SEHZmiZNYJegHxw&s"
+    data-trailer="https://www.youtube.com/embed/5cx7rvMvAWo">
+
+    <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBadDjvOCZXp1IXLgPs4AgU589UdVO3M9eA&s"
+    data-trailer="https://www.youtube.com/embed/T5-4bVZZ5fA">
+
+    <img
+    class="movie-poster"
+    src="https://resizing.flixster.com/APw1K0DGvzBL-r46ib7ADHnM3d4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFkM2I3YzM5LTNlNzUtNGU2Ny04NjEwLWZmM2NlYjYwY2UwOC5qcGc="
+    data-trailer="https://www.youtube.com/embed/DfCUMZ3Jkhw">
+
+     <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BNTE3OTIxZDYtNjA0NC00N2YxLTg1NGQtOTYxNmZkMDkwOWNjXkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/afEJYg0tyJ4">
+
+    <img
+    class="movie-poster"
+    src="https://preview.redd.it/goblin-my-first-time-watching-it-to-see-what-everyone-is-v0-inxr1noxiime1.jpeg?auto=webp&s=820abd4cc32b56999bad8ea5c1b45187864e780e"
+    data-trailer="https://www.youtube.com/embed/y1ClsA-zt-I">
+
+    
+    
+</div>
+
+<!-- Modal -->
+<div id="trailerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe
+      id="trailerFrame"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+</section>
+
+
+
+
+<section class="row">
+  <h2>Films & TV Series</h2>
+  <!-- arrows -->
+  <button class="row-arrow left" onclick="scrollMovies(-1)">❮</button>
+  <button class="row-arrow right" onclick="scrollMovies(1)">❯</button>
+
+  <!-- movie images --> 
+
+  <div class="movies">
+
+    <img
+    class="movie-poster"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRusBSd260zjoAF6oswQdfyWg-zviFvtrMYqA&s"
+    data-trailer="https://www.youtube.com/embed/nXQVoJdDdBg"> 
+
+
+     <img
+    class="movie-poster"
+    src="https://i.pinimg.com/736x/75/3d/d1/753dd1b9012f84d6b719097ad4444e01.jpg"
+    data-trailer="https://www.youtube.com/embed/A6OnLOi6rp0">
+
+   
+      <img
+    class="movie-poster"
+    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202402/yami-gautam--priyamanis-article-370-box-office-collection-day-6-291611587-3x4.jpg?VersionId=YzcjHd0gKQ25fJ82MxiXu9XFKbEpkTHu"
+    data-trailer="https://www.youtube.com/embed/Nwce9WwkcMg">
+
+
+  <img
+      class="movie-poster"
+      src="https://m.media-amazon.com/images/M/MV5BNjY5OTg4NTYtZjVkZS00YTZmLWIwNDEtM2Y0ODQyMzM2NTJiXkEyXkFqcGc@._V1_.jpg"
+      data-trailer="https://www.youtube.com/embed/vlZ_rfMDshI">
+
+    <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BODllODJhNzYtNTE0OC00ZTdmLWE3NWQtNGNkM2JjMWZhM2MwXkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/HNnt00swZ5Q">
+
+     <img
+    class="movie-poster"
+    src="https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_.jpg"
+    data-trailer="https://www.youtube.com/embed/Apa85VT9fX0">
+
+
+</div>
+
+<div id="trailerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe
+      id="trailerFrame"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- Modal to show trailer -->
+<div id="trailerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe id="trailerFrame" width="800" height="450" src="" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+
+
+<script src="net.js"></script>
+</body>
+</html>
